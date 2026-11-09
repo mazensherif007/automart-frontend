@@ -5,6 +5,7 @@ import {
 } from "lucide-react";
 
 import { Link } from "@/i18n/navigation";
+import { LocaleThemeControls } from "@/components/shared/locale-theme-controls";
 
 type LegalSection = {
     title: string;
@@ -49,7 +50,7 @@ export function LegalPage({
                 className="pointer-events-none absolute -end-48 -top-48 size-[560px] rounded-full bg-primary/25 blur-3xl"
             />
 
-            <header className="relative z-10 border-b-2 border-foreground bg-background/90 backdrop-blur">
+            {/* <header className="relative z-10 border-b-2 border-foreground bg-background/90 backdrop-blur">
                 <div className="mx-auto flex min-h-20 max-w-7xl items-center justify-between gap-4 px-5 sm:px-8 lg:px-10">
                     <Link
                         href="/"
@@ -76,6 +77,41 @@ export function LegalPage({
 
                         {backHome}
                     </Link>
+                </div>
+            </header> */}
+            <header className="relative z-10 border-b-2 border-foreground bg-background/90 backdrop-blur">
+                <div className="mx-auto flex min-h-20 max-w-7xl items-center justify-between gap-4 px-5 sm:px-8 lg:px-10">
+                    <Link
+                        href="/"
+                        className="flex items-center gap-3"
+                    >
+                        <span className="grid size-11 place-items-center rounded-md border-2 border-foreground bg-primary font-black text-black automart-shadow-sm">
+                            A
+                        </span>
+
+                        <span className="text-xl font-black">
+                            automart
+                        </span>
+                    </Link>
+
+                    <div className="flex shrink-0 items-center gap-2">
+                        <LocaleThemeControls />
+
+                        <Link
+                            href="/"
+                            className="inline-flex min-h-10 items-center gap-2 rounded-md border-2 border-foreground bg-card px-3 py-2 text-sm font-black automart-shadow-sm transition-transform hover:-translate-y-0.5 sm:px-4"
+                        >
+                            <ArrowLeft
+                                size={16}
+                                className="rtl:rotate-180"
+                                aria-hidden="true"
+                            />
+
+                            <span className="hidden sm:inline">
+                                {backHome}
+                            </span>
+                        </Link>
+                    </div>
                 </div>
             </header>
 

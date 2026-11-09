@@ -10,7 +10,6 @@ import {
 
 import { notFound } from "next/navigation";
 
-import { Providers } from "@/components/providers";
 import { routing } from "@/i18n/routing";
 
 type LocaleLayoutProps = {
@@ -40,15 +39,20 @@ export default async function LocaleLayout({
   setRequestLocale(locale);
 
   const messages = await getMessages();
-  const direction = locale === "ar" ? "rtl" : "ltr";
+  const direction =
+    locale === "ar" ? "rtl" : "ltr";
 
   return (
-    <div lang={locale} dir={direction}>
+    <div
+      lang={locale}
+      dir={direction}
+      className="min-h-screen"
+    >
       <NextIntlClientProvider
         locale={locale}
         messages={messages}
       >
-        <Providers>{children}</Providers>
+        {children}
       </NextIntlClientProvider>
     </div>
   );
