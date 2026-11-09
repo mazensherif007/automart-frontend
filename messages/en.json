@@ -1,0 +1,384 @@
+{
+  "WelcomeHeader": {
+    "home": "Automart home",
+    "tagline": "Right part. First time.",
+    "mainNavigation": "Main navigation",
+    "mobileNavigation": "Mobile navigation",
+    "howItWorks": "How it works",
+    "forSellers": "For sellers",
+    "signIn": "Sign in",
+    "createAccount": "Create account",
+    "changeLanguage": "Switch language",
+    "changeTheme": "Change color theme",
+    "openMenu": "Open navigation menu"
+  },
+  "WelcomeHero": {
+    "badge": "For workshops, retailers and suppliers in Egypt",
+    "title": "Your VIN knows which part fits.",
+    "description": "Type the 17 characters from the windshield or vehicle licence. Automart identifies the exact engine, gearbox and model year, then shows compatible parts from verified businesses.",
+    "openShop": "Open a shop",
+    "applySupplier": "Apply as supplier",
+    "verifiedBusinesses": "Verified business accounts",
+    "compatibleParts": "Vehicle compatibility checked",
+    "egyptianMarket": "Built for the Egyptian market",
+    "demoTitle": "VIN decoding preview",
+    "demoLabel": "Demo data",
+    "demoImageAlt": "VIN decoding demonstration for a Toyota Corolla",
+    "demoStatusLabel": "Vehicle match",
+    "demoStatus": "Exact vehicle identified"
+  },
+  "HowItWorks": {
+    "eyebrow": "Simple and accurate",
+    "title": "From vehicle data to the right part",
+    "description": "Automart reduces part identification errors and helps automotive businesses complete their purchasing process with confidence.",
+    "stepLabel": "Step {number}",
+    "steps": {
+      "vehicle": {
+        "title": "Identify the vehicle",
+        "description": "Enter the VIN or vehicle details to identify the exact model, engine, gearbox and production year."
+      },
+      "part": {
+        "title": "Find the correct part",
+        "description": "Search by part name, OEM number or category and view parts compatible with the identified vehicle."
+      },
+      "offers": {
+        "title": "Compare verified offers",
+        "description": "Review prices, availability and delivery options from verified traders and wholesale suppliers."
+      },
+      "delivery": {
+        "title": "Complete the order",
+        "description": "Choose the suitable offer, confirm the order and follow its status until delivery."
+      }
+    },
+    "noticeTitle": "Compatibility before ordering",
+    "noticeDescription": "Vehicle and OEM data help reduce incorrect purchases, returns and delays."
+  },
+  "RoleSelection": {
+    "eyebrow": "Choose your business portal",
+    "title": "Pick your counter",
+    "description": "Join Automart through the portal that matches your business responsibilities and daily operations.",
+    "recommended": "Retail business",
+    "roles": {
+      "trader": {
+        "label": "Trader · Retail shop",
+        "title": "Sell parts and restock your business",
+        "description": "Manage retail products, orders and inventory while purchasing stock from verified wholesale suppliers.",
+        "features": {
+          "first": "Manage products, pricing and stock",
+          "second": "Process orders and quotations",
+          "third": "Restock from multiple suppliers"
+        },
+        "action": "Open a shop"
+      },
+      "supplier": {
+        "label": "Supplier · Wholesaler",
+        "title": "Supply verified parts at scale",
+        "description": "Publish wholesale catalogues, receive quotation requests and fulfil orders from retail shops.",
+        "features": {
+          "first": "Upload and import product catalogues",
+          "second": "Respond to RFQs and wholesale orders",
+          "third": "Manage promotions and payouts"
+        },
+        "action": "Apply as supplier"
+      },
+      "staff": {
+        "label": "Platform staff",
+        "title": "Review and operate the marketplace",
+        "description": "Access the administration portal to review businesses, listings, imports and marketplace activity.",
+        "features": {
+          "first": "Review trader and supplier verification",
+          "second": "Moderate listings and import results",
+          "third": "Access risk and audit tools"
+        },
+        "action": "Staff sign in"
+      }
+    },
+    "accountNotice": "Business applications may require commercial registration, tax information and authorised representative details.",
+    "existingAccount": "Already have an account? Sign in"
+  },
+  "WelcomeFooter": {
+    "home": "Automart home",
+    "tagline": "Right part. First time.",
+    "description": "A marketplace that helps automotive businesses identify compatible parts, compare verified offers and manage purchasing operations.",
+    "location": "Built for automotive businesses in Egypt",
+    "platformTitle": "Platform",
+    "howItWorks": "How it works",
+    "forSellers": "For sellers",
+    "signIn": "Sign in",
+    "createAccount": "Create account",
+    "businessTitle": "Business portals",
+    "traderPortal": "Trader portal",
+    "supplierPortal": "Supplier portal",
+    "staffPortal": "Platform staff",
+    "contactTitle": "Contact",
+    "contactDescription": "For technical questions, business applications or platform support, contact the Automart team.",
+    "prototypeTitle": "Prototype notice",
+    "prototypeDescription": "This version uses demonstration data. No real orders, payments or commercial transactions are processed.",
+    "demoBadge": "Demo environment",
+    "copyright": "© {year} Automart. All rights reserved.",
+    "privacy": "Privacy",
+    "terms": "Terms",
+    "accessibility": "Accessibility"
+  }, 
+  "AuthShell": {
+    "home": "Automart home",
+    "tagline": "Right part. First time.",
+    "backHome": "Home",
+    "changeLanguage": "Switch language",
+    "changeTheme": "Change color theme"
+  },
+  "Login": {
+    "eyebrow": "Business access",
+    "sideTitle": "Manage your Automart business from one place.",
+    "sideDescription": "Sign in to manage products, orders, quotations, suppliers, inventory and marketplace operations.",
+    "featureOne": "Role-based access for traders, suppliers and platform staff",
+    "featureTwo": "Secure access to business and marketplace data",
+    "featureThree": "Arabic and English interface with RTL support",
+    "title": "Welcome back",
+    "description": "Enter your business account details to continue.",
+    "emailLabel": "Email address",
+    "emailPlaceholder": "name@business.com",
+    "passwordLabel": "Password",
+    "passwordPlaceholder": "Enter your password",
+    "showPassword": "Show password",
+    "hidePassword": "Hide password",
+    "rememberMe": "Remember me",
+    "forgotPassword": "Forgot password?",
+    "submit": "Sign in",
+    "submitting": "Signing in...",
+    "noAccount": "Do not have an account?",
+    "createAccount": "Create an account"
+  },
+  "Register": {
+    "eyebrow": "Business registration",
+    "title": "Create your Automart account",
+    "description": "Select your business type and provide the basic account information. Verification documents can be completed during onboarding.",
+    "businessType": "Choose your business type",
+    "traderTitle": "Trader · Retail shop",
+    "traderDescription": "Sell parts and purchase stock from suppliers.",
+    "supplierTitle": "Supplier · Wholesaler",
+    "supplierDescription": "Supply products to retail traders at scale.",
+    "representativeName": "Representative name",
+    "representativePlaceholder": "Full name",
+    "businessName": "Business name",
+    "businessPlaceholder": "Registered business name",
+    "email": "Business email",
+    "emailPlaceholder": "name@business.com",
+    "phone": "Phone number",
+    "phonePlaceholder": "+20 10 0000 0000",
+    "password": "Create password",
+    "passwordPlaceholder": "At least 8 characters",
+    "passwordHint": "Use at least 8 characters with a mixture of letters and numbers.",
+    "showPassword": "Show password",
+    "hidePassword": "Hide password",
+    "acceptTerms": "I confirm that the information is correct and agree to the",
+    "terms": "terms and conditions",
+    "traderSubmit": "Create trader account",
+    "supplierSubmit": "Submit supplier application",
+    "submitting": "Submitting...",
+    "existingAccount": "Already have an account?",
+    "signIn": "Sign in"
+  },
+  "ForgotPassword": {
+    "eyebrow": "Account recovery",
+    "sideTitle": "Recover access to your business account.",
+    "sideDescription": "Enter the email address associated with your Automart account. A secure reset link will be sent if the account exists.",
+    "featureOne": "The reset link is sent only to the registered email address",
+    "featureTwo": "The link should expire after a limited period",
+    "featureThree": "Your existing password remains unchanged until a new password is created",
+    "title": "Forgot your password?",
+    "description": "Enter your registered business email address and we will send instructions for creating a new password.",
+    "emailLabel": "Business email address",
+    "emailPlaceholder": "name@business.com",
+    "emailHint": "Use the same email address used when creating the Automart account.",
+    "submit": "Send reset instructions",
+    "submitting": "Sending instructions...",
+    "backToLogin": "Back to sign in",
+    "supportTitle": "Cannot access your email?",
+    "supportDescription": "Contact platform support if the registered email account is no longer available.",
+    "successEyebrow": "Request received",
+    "successTitle": "Check your email",
+    "successDescription": "If an Automart account is registered with this address, password reset instructions will be sent shortly.",
+    "nextStepsTitle": "What happens next?",
+    "nextStepOne": "Open the password reset email sent by Automart.",
+    "nextStepTwo": "Follow the secure link before it expires.",
+    "nextStepThree": "Create a new password and return to the sign-in page.",
+    "tryAnotherEmail": "Use another email",
+    "securityNotice": "For security, the page does not confirm whether a specific email address is registered."
+  },
+  "ResetPassword": {
+  "eyebrow": "Password security",
+  "sideTitle": "Create a secure password for your business account.",
+  "sideDescription": "Choose a new password that has not previously been used for this Automart account.",
+  "featureOne": "Use at least eight characters",
+  "featureTwo": "Include both letters and numbers",
+  "featureThree": "Do not reuse passwords from other business systems",
+  "title": "Create a new password",
+  "description": "Enter and confirm the new password for your Automart account.",
+  "passwordLabel": "New password",
+  "passwordPlaceholder": "Enter the new password",
+  "confirmPasswordLabel": "Confirm new password",
+  "confirmPasswordPlaceholder": "Enter the password again",
+  "showPassword": "Show password",
+  "hidePassword": "Hide password",
+  "requirementsTitle": "Password requirements",
+  "minimumLength": "At least 8 characters",
+  "containsLetter": "Contains at least one letter",
+  "containsNumber": "Contains at least one number",
+  "passwordsMatch": "The passwords match",
+  "passwordsDoNotMatch": "The passwords do not match",
+  "submit": "Reset password",
+  "submitting": "Resetting password...",
+  "backToLogin": "Back to sign in",
+  "weakPasswordError": "The new password does not meet all password requirements.",
+  "passwordMismatchError": "The password confirmation does not match the new password.",
+  "invalidTokenError": "The password reset link is invalid or expired.",
+  "invalidEyebrow": "Invalid reset link",
+  "invalidTitle": "This link cannot be used",
+  "invalidDescription": "The password reset link is missing, invalid or has expired. Request a new link to continue.",
+  "requestNewLink": "Request a new link",
+  "successEyebrow": "Password updated",
+  "successTitle": "Your password has been reset",
+  "successDescription": "The new password is ready. You can now use it to sign in to your Automart account.",
+  "continueToLogin": "Continue to sign in",
+  "successSecurityNotice": "If you did not request this password change, contact platform support immediately."
+},"RegisterSuccess": {
+  "traderEyebrow": "Trader account created",
+  "traderTitle": "Your shop account is ready",
+  "traderDescription": "Your Automart trader account has been created. Complete the business profile and verification requirements to unlock all marketplace features.",
+  "supplierEyebrow": "Supplier application received",
+  "supplierTitle": "Your application is under review",
+  "supplierDescription": "The Automart team will review the supplied business information before enabling wholesale features and supplier listings.",
+  "traderSteps": {
+    "emailTitle": "Verify your email",
+    "emailDescription": "Open the verification message sent to the registered business email.",
+    "profileTitle": "Complete the profile",
+    "profileDescription": "Add business details, addresses and the required verification documents.",
+    "loginTitle": "Access your portal",
+    "loginDescription": "Sign in and continue setting up products, inventory and team access."
+  },
+  "supplierSteps": {
+    "emailTitle": "Verify your email",
+    "emailDescription": "Confirm the business email address used in the supplier application.",
+    "documentsTitle": "Submit documents",
+    "documentsDescription": "Provide commercial registration, tax and authorised representative information.",
+    "reviewTitle": "Application review",
+    "reviewDescription": "Platform staff will review the application and send the result by email."
+  },
+  "supplierNoticeTitle": "Supplier approval is required",
+  "supplierNoticeDescription": "Wholesale listings, quotations and supplier orders remain unavailable until the business verification process is approved.",
+  "signIn": "Continue to sign in",
+  "backHome": "Return to home"
+},
+"Terms": {
+  "eyebrow": "Legal information",
+  "title": "Terms and conditions",
+  "description": "These terms explain the rules for accessing and using the Automart marketplace and its business portals.",
+  "updatedLabel": "Last updated",
+  "updatedDate": "November 2026",
+  "notice": "This page is draft prototype content and should be reviewed by qualified legal counsel before production use.",
+  "backHome": "Home",
+  "sections": {
+    "eligibility": {
+      "title": "Account eligibility",
+      "content": "Automart business accounts are intended for authorised traders, suppliers and platform staff. Account holders must provide accurate information and keep account credentials secure."
+    },
+    "businessAccounts": {
+      "title": "Business verification",
+      "content": "Automart may request commercial registration, tax information, contact details and proof that the representative is authorised to act for the business."
+    },
+    "marketplace": {
+      "title": "Marketplace responsibilities",
+      "content": "Traders and suppliers are responsible for product information, prices, availability, invoices, fulfilment and compliance with applicable Egyptian laws and regulations."
+    },
+    "prohibited": {
+      "title": "Prohibited activity",
+      "content": "Users must not submit false information, list counterfeit or unlawful products, interfere with platform security or attempt to access another account without authority."
+    },
+    "suspension": {
+      "title": "Account restriction",
+      "content": "Automart may temporarily restrict or suspend an account when verification fails, security risks are detected or marketplace rules are materially breached."
+    },
+    "contact": {
+      "title": "Questions about these terms",
+      "content": "Questions about marketplace terms should be sent to the official Automart support or legal contact once those channels are published."
+    }
+  }
+},
+"Privacy": {
+  "eyebrow": "Data protection",
+  "title": "Privacy notice",
+  "description": "This notice describes the types of information Automart may process and how that information supports marketplace operations.",
+  "updatedLabel": "Last updated",
+  "updatedDate": "November 2026",
+  "notice": "This is draft prototype content. The production privacy notice must reflect the final backend, hosting, analytics, payment and data-retention arrangements.",
+  "backHome": "Home",
+  "sections": {
+    "collected": {
+      "title": "Information collected",
+      "content": "Information may include representative names, business details, contact information, verification documents, product data, orders, quotations, audit records and security events."
+    },
+    "usage": {
+      "title": "How information is used",
+      "content": "Information may be used to create accounts, verify businesses, operate orders and quotations, prevent fraud, improve compatibility data and provide platform support."
+    },
+    "sharing": {
+      "title": "Information sharing",
+      "content": "Relevant business and transaction information may be shared between authorised marketplace participants and service providers where required to complete platform operations."
+    },
+    "security": {
+      "title": "Security measures",
+      "content": "Automart should use access controls, encrypted connections, secure password handling, audit logging and role-based permissions to protect platform information."
+    },
+    "retention": {
+      "title": "Data retention",
+      "content": "Information should be kept only for the period required for marketplace operations, legal obligations, dispute handling, fraud prevention and security auditing."
+    },
+    "rights": {
+      "title": "Access and correction",
+      "content": "Authorised account representatives may request access to or correction of business and personal information through the official support channel."
+    }
+  }
+},
+"Accessibility": {
+  "eyebrow": "Inclusive experience",
+  "title": "Accessibility",
+  "description": "Automart aims to provide a marketplace experience that can be used across devices, languages and different access needs.",
+  "updatedLabel": "Last updated",
+  "updatedDate": "November 2026",
+  "notice": "Accessibility should be tested continuously against WCAG 2.2 Level AA during development and before production release.",
+  "backHome": "Home",
+  "sections": {
+    "commitment": {
+      "title": "Our commitment",
+      "content": "Automart aims to follow recognised accessibility practices and to address barriers that prevent authorised users from completing essential business tasks."
+    },
+    "features": {
+      "title": "Interface features",
+      "content": "The interface includes visible focus states, text labels, semantic headings, consistent navigation, responsive layouts, colour contrast and alternatives for important icons."
+    },
+    "keyboard": {
+      "title": "Keyboard navigation",
+      "content": "Interactive controls should be reachable and usable with a keyboard, with a logical focus order and no keyboard traps."
+    },
+    "language": {
+      "title": "Language and direction",
+      "content": "Automart supports English and Arabic interfaces, including left-to-right and right-to-left layouts."
+    },
+    "feedback": {
+      "title": "Accessibility feedback",
+      "content": "Accessibility issues should be reported through the official support channel with the affected page, device, browser and assistive technology details."
+    }
+  }
+},
+"NotFound": {
+  "eyebrow": "Page not found",
+  "title": "This route does not exist",
+  "description": "The address may be incorrect, the page may have moved or the requested feature may not be available yet.",
+  "home": "Return to home",
+  "goBack": "Go back"
+},"LocaleControls": {
+  "changeLanguage": "Switch language",
+  "changeTheme": "Change color theme"
+}
+}
